@@ -1,0 +1,22 @@
+{
+  "name": "encoder-commandHandlers",
+  "version": "0.0.1",
+  "description": "commandHandlers for encoder",
+  "main": "index.js",
+  "repository": "https://github.com/ben33/encoder-commandHandlers.git",
+  "author": "Benjamin FOSSES",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --legacy-watch --watch src --experimental-modules src/index.mjs",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^5.0.0",
+    "jackrabbit": "https://github.com/pagerinc/jackrabbit.git",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
